@@ -1,0 +1,58 @@
+input[type="checkbox"]{
+  outline: auto;
+}
+
+[data-action~="delete"]{
+  color:green;
+}
+
+[data-action]:not([data-action~="delete"]){
+  color:black;
+}
+
+input[type="checkbox"]:not(:checked){
+  outline: none;
+}
+
+[id|="message"]{
+  color:red;
+}
+
+[id^="message-"]{
+  color:beige;
+}
+
+a[href$=".zip"]{
+  color:yellow;
+}
+
+#messages li:last-child a{
+  color:brown
+}
+
+#messages li:nth-child(2n){
+  list-style-type: circle;
+}
+
+h3#widget-title + *{
+  font-size: 20px;
+}
+
+h3#widget-title ~ a{
+  font-size: 15px;
+}
+
+body {
+  font: 14px/1.5 serif;
+}
+
+.task2 li:nth-child(n+2) {
+  margin-top: 1.5em;
+}
+
+.task3  li:nth-child(2n+3){
+  margin-top: 1.5em;
+}
+.task3 ul{
+  margin: 0;
+}
