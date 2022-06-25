@@ -1,0 +1,64 @@
+.icon {
+    width: 16px;
+    height: 16px;
+    float: left;
+  }
+  
+  .open .icon {
+    background: url(https://js.cx/sprite-tree/minus.gif);
+  }
+  
+  .closed .icon {
+    background: url(https://js.cx/sprite-tree/plus.gif);
+  }
+  
+  .leaf .icon {
+    background: url(https://js.cx/sprite-tree/article.gif);
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  .nav {
+    height: 40px;
+    width: 80%;
+    margin: auto;
+  }
+
+  .nav .pages {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+  }
+
+  .nav .pages li {
+    display: inline;
+    line-height: 40px;
+    padding: 0 10px;
+  }
+
+  .nav .left {
+    float: left;
+    cursor: pointer;
+  }
+
+  .nav .right {
+    float: right;
+    cursor: pointer;
+  }
+
+  .leftColumn{
+    float:left;
+    width:30%;
+    background: red;
+  }
+
+  .rightColumn {
+    float:right;
+    width:70%;
+    background-color: brown;
+    border-left: 10px solid blue;
+    padding-left: 5px;
+    box-sizing: border-box;
+  }
